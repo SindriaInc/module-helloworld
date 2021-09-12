@@ -1,6 +1,6 @@
-# Module Bootstrap
+# Module HelloWorld
 
-Custom magento 2 module bootstrap.
+Custom magento 2 module helloworld.
 
 ## Setup module development with composer
 
@@ -8,11 +8,11 @@ Custom magento 2 module bootstrap.
 
 - Move into folder: `cd sindria`
 
-- Clone this repo: `git clone https://github.com/SindriaInc/module-bootstrap.git`
+- Clone this repo: `git clone https://github.com/SindriaInc/module-helloworld.git`
 
 - Configure custom folder as local composer repository: `composer config repositories.dev-sindria path sindria/\*`
 
-- Require your custom module: `composer require sindria/module-bootstrap:@dev` 
+- Require your custom module: `composer require sindria/module-helloworld:@dev` 
 
 - Run setup upgrade: `php bin/magento setup:upgrade`
 
